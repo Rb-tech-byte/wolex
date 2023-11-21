@@ -1,0 +1,37 @@
+/* ----------------------------- NOTE TEXTFIELD ----------------------------- */
+.mantine-TextInput-root,
+.mantine-Textarea-root {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.mantine-TextInput-label,
+.mantine-Textarea-label {
+  margin-bottom: 5px;
+}
+
+.mantine-Input-input,
+.mantine-TextInput-input,
+.mantine-Textarea-input {
+  background-color: transparent;
+  min-height: 38px;
+  border-radius: 4px;
+  &:hover {
+    background-color: transparent;
+  }
+}
+.mantine-Input-input:focus,
+.mantine-TextInput-input:focus,
+.mantine-Textarea-input:focus {
+  border-color: #fccf2f;
+}
+
+/* ------------------------------- NOTE BUTTON ------------------------------ */
+.mantine-UnstyledButton-root {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+}
